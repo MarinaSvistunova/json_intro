@@ -10,22 +10,16 @@
 
    https://kodaktor.ru/j/6c9f98f
 
-3. Убедитесь в том, что он проходит проверку корректности в jsonlint
+3. Проверка корректности в jsonlint:
 
-4. Разместите ссылку с этим адресом в репозитории-ответе на задание (в том же репозитории, в котором вы разместили DTD к документу, описывающему студентов)
-
+   ![alt text](https://github.com/MarinaSvistunova/json_intro/blob/master/images/jsonlint.png)
 
 Часть II. Построение схемы
 
+1. Сгенерированная схема ( с помощью https://jsonschema.net ):
  
-schema появляется одним из двух способов:
-а) индуктивный
-б) дедуктивный
+   https://kodaktor.ru/j/6c9f98f_a5b2c
 
-два уровня «правильности» документов (веб-документов  в данном контексте)
+2. Валидация на jsonschemavalidator.net:
 
-а) well-formed 
-б) valid
-
-
-Возьмите документ, созданный в первой части и разработайте или сгенерируйте схему для него с дальнейшей валидацией в  jsonschemavalidator.net
+   ![alt text](https://github.com/MarinaSvistunova/json_intro/blob/master/images/jsonvalid.png)
